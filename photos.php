@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Swiper Article</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
@@ -14,22 +14,24 @@
   <div class="container">
 
     <!-- Example 1 -->
-    <!-- <div class="swiper mySwiper">
+    <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide slide_1">Slide 1</div>
-        <div class="swiper-slide slide_2">Slide 2</div>
-        <div class="swiper-slide slide_3">Slide 3</div>
-        <div class="swiper-slide slide_4">Slide 4</div>
-        <div class="swiper-slide slide_5">Slide 5</div>
+        <div class="swiper-slide"><img src="photos/cave001.JPG" alt="Girl in a jacket"></div>
+        <div class="swiper-slide"><img src="photos/cave002.JPG" alt="Girl in a jacket"></div>
+        <div class="swiper-slide"><img src="photos/cave003.JPG" alt="Girl in a jacket"></div>
+        <div class="swiper-slide slide_1"><img src="photos/cave004.JPG" alt="Girl in a jacket"></div>
+        <div class="swiper-slide"><img src="photos/cave005.JPG" alt="Girl in a jacket"></div>
+        <div class="swiper-slide"><img src="photos/cave006.JPG" alt="Girl in a jacket"></div>
+        <div class="swiper-slide slide_2"><img src="photos/cave002.JPG" alt="Girl in a jacket"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-scrollbar"></div>
-    </div> -->
+    </div>
 
 
-    <div class="swiper mySwiper swiper-h">
+    <!-- <div class="swiper mySwiper swiper-h">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="photos/cave001.JPG" alt="Girl in a jacket"></div>
         <div class="swiper-slide"><img src="photos/cave002.JPG" alt="Girl in a jacket"></div>
@@ -54,13 +56,13 @@
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-scrollbar"></div>
-    </div>
+    </div> -->
 
   </div>
 
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/swiper.js"></script>
 </body>
 
 </html>
